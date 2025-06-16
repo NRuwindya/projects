@@ -2,12 +2,12 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <title>My UI/UX Designs</title>
+  <title>My UI/UX Projects</title>
   <style>
     body {
       font-family: Arial, sans-serif;
-      background: #f7f7f7;
-      padding: 20px;
+      background: #f9f9f9;
+      padding: 30px;
     }
     h1 {
       text-align: center;
@@ -23,69 +23,77 @@
     .card {
       background: white;
       border-radius: 10px;
-      box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+      box-shadow: 0 4px 10px rgba(0,0,0,0.08);
       padding: 20px;
       width: 300px;
       text-align: center;
     }
     .card h3 {
-      margin-bottom: 15px;
+      margin-bottom: 10px;
+      font-size: 18px;
+      color: #222;
     }
     .card button {
-      background: #007bff;
+      background: #0066ff;
       color: white;
       padding: 10px 16px;
       border: none;
-      border-radius: 5px;
+      border-radius: 6px;
       cursor: pointer;
     }
     .card button:hover {
-      background: #0056b3;
+      background: #004fcc;
     }
     .embed-frame {
       display: none;
       margin-top: 15px;
+    }
+    iframe {
+      border: none;
+      border-radius: 8px;
     }
   </style>
 </head>
 <body>
   <h1>My Design Projects</h1>
   <div class="card-container">
-    <!-- Card 1 -->
+
+    <!-- Design 1 -->
     <div class="card">
-      <h3>Design 1 – Instagram Vision</h3>
+      <h3>Instagram Vision – Main Flow</h3>
       <button onclick="toggleEmbed('embed1')">View Design</button>
       <div class="embed-frame" id="embed1">
-        <iframe width="100%" height="300" src="https://www.figma.com/embed?embed_host=share&url=https://www.figma.com/proto/UKjkCF3K320dXGNLKRDabn/Projetcs?node-id=0-1" allowfullscreen style="border: none;"></iframe>
+        <iframe width="100%" height="300" src="https://www.figma.com/embed?embed_host=share&url=https://www.figma.com/proto/UKjkCF3K320dXGNLKRDabn/Projetcs?node-id=0-1" allowfullscreen></iframe>
       </div>
     </div>
 
-    <!-- Card 2 -->
+    <!-- Design 2 -->
     <div class="card">
-      <h3>Design 2 – Mobile App UI</h3>
+      <h3>Instagram Vision – Story View</h3>
       <button onclick="toggleEmbed('embed2')">View Design</button>
       <div class="embed-frame" id="embed2">
-        <iframe style="border: 1px solid rgba(0, 0, 0, 0.1);" width="800" height="450" src="https://embed.figma.com/design/UKjkCF3K320dXGNLKRDabn/Projetcs?node-id=18-1044&embed-host=share" allowfullscreen></iframe>
+        <iframe width="100%" height="300" src="https://www.figma.com/embed?embed_host=share&url=https://www.figma.com/proto/UKjkCF3K320dXGNLKRDabn/Projetcs?node-id=18-1044" allowfullscreen></iframe>
       </div>
     </div>
 
-    <!-- Card 3 -->
+    <!-- Design 3 -->
     <div class="card">
-      <h3>Design 3 – Dashboard</h3>
+      <h3>Instagram Vision – AR Comment View</h3>
       <button onclick="toggleEmbed('embed3')">View Design</button>
       <div class="embed-frame" id="embed3">
-        <iframe width="100%" height="300" src="https://www.figma.com/embed?embed_host=share&url=YOUR_LINK_3" allowfullscreen style="border: none;"></iframe>
+        <iframe width="100%" height="300" src="https://www.figma.com/embed?embed_host=share&url=https://www.figma.com/proto/UKjkCF3K320dXGNLKRDabn/Projetcs?node-id=22-785" allowfullscreen></iframe>
       </div>
     </div>
 
-    <!-- Card 4 -->
+    <!-- Design 4 -->
     <div class="card">
-      <h3>Design 4 – Landing Page</h3>
+      <h3>Design 4 – Replace this title</h3>
       <button onclick="toggleEmbed('embed4')">View Design</button>
       <div class="embed-frame" id="embed4">
-        <iframe width="100%" height="300" src="https://www.figma.com/embed?embed_host=share&url=YOUR_LINK_4" allowfullscreen style="border: none;"></iframe>
+        <iframe width="100%" height="300" src="https://www.figma.com/embed?embed_host=share&url=YOUR_LINK_4_HERE" allowfullscreen></iframe>
       </div>
     </div>
+
   </div>
 
   <script>
